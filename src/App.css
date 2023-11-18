@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .bg-gradient-mesh{
+  background-color: #4e16a2 ;
+} 
+
+/* App.css or your custom stylesheet */
+.bg-gradient-mesh {
+  background-color:#9d20f6;
+background-image:
+
+ radial-gradient(at 57% 18%, hsla(326,88%,64%,1) 0px, transparent 50%),
+radial-gradient(at 80% 60%, hsla(50,68%,61%,1) 0px, transparent 50%),
+radial-gradient(at 38% 24%, rgb(192, 60, 236) 0px, transparent 50%),
+radial-gradient(at 79% 19%, rgb(78, 191, 222) 0px, transparent 50%),
+radial-gradient(at 86% 69%, rgb(239, 124, 29) 0px, transparent 50%), 
+radial-gradient(at 31% 8%, rgb(19, 221, 126) 0px, transparent 50%);
+}
+
+
+/* Upload.css or your custom stylesheet */
+/* Upload.css or your custom stylesheet */
+/* Upload.css or your custom stylesheet */
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.05); /* Set the initial background color to a transparent dark tone */
+  transition: background-color 0.3s, backdrop-filter 0.3s;
+}
+
+.glass-effect:hover {
+  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.6); /* Change the background color on hover to a darker tone */
+}
+
+.glass-content {
+  background: transparent; /* Set the content background to transparent */
+}
+
+
+

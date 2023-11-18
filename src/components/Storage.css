@@ -1,0 +1,54 @@
+/* Storage.css or your custom stylesheet */
+.storage-container {
+    background-size: cover;
+    padding: 16px;
+    border-radius: 8px;
+    color: white; /* Set the text color to white */
+  }
+  
+  .table-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .delete-btn{
+    background-color: rgba(190, 11, 11, 0.717);
+    color: aliceblue;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    color: white; /* Set the text color to white */
+  }
+  
+  th {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white; /* Set the text color to white */
+  }
+  
+  .table-cell-text {
+    color: white; /* Set the text color to white */
+  }
+  
+  a {
+    color: #0091ff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #3e7dad;
+  }
+  .eye-icon{
+    width: 30px;
+    height: 30px;
+  }
